@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main() {
+  // Simulação de leitura de sensores
+    int umidade = 60;
+  float temperatura = 22.5;
+
+// Verifica condições climáticas usando operadores lógicos
+
+    if (umidade = 40 && temperatura < 26.5)
+    {    printf("Temperatura  dentro do padrão\n");
+    } else {
+      printf("O clima está quente e seco\n");
+    } 
+    if (umidade > 42 || temperatura >= 28.5) {
+        printf("Ligar refrigeração\n");
+    } else {
+        printf("Desligar refrigeração\n");
+    }
+    if (umidade < 30 && temperatura >= 35.5) {
+        printf("Ligar refrigeração extra\n");
+    } else {
+        printf("Temperatura normalizada\n");
+    }
+    
+    if (umidade >= 20 || temperatura < 18.5) {
+        printf("Ligar humidificação\n");
+    } else {
+        printf("Desligar humidificação\n");
+    }
+    return 0;
+    // Fim do programa
+}
